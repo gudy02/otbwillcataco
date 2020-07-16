@@ -1,0 +1,56 @@
+@media print {
+    title {
+        visibility: hidden;
+    }
+    form {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    .input-group {
+        visibility: hidden;
+    }
+    #table_filter {
+        visibility: hidden;
+    }
+    #table_info {
+        visibility: hidden;
+    }
+    #table_paginate {
+        visibility: hidden;
+    }
+    #pagination {
+        visibility: hidden;
+    }
+    .btn {
+        display: none;
+    }
+    .cabezera {
+        text-align: right;
+        font-size: 12px;
+    }
+    .btn-imprimir {
+        display: none;
+    }
+    .btn-imprimir label {
+        display: none;
+    }
+    .titulo {
+        color: blue;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.titulo {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
